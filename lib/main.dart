@@ -9,9 +9,5 @@ class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: HomePage(),
-    );
-  }
+  Widget build(BuildContext context) => const MaterialApp(home: HomePage());
 }
